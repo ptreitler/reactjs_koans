@@ -25,6 +25,6 @@ new WebpackDevServer(webpack(config), {
       }
     });
 
-var server = app.listen(8080, function () {
+var server = app.listen(4242, function () {
   console.log('Listening at http://localhost:%s', server.address().port);
 });
